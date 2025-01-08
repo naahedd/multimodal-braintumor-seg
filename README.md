@@ -42,17 +42,6 @@ The model successfully segmented brain tumors with high accuracy, as evidenced b
 ### Visualization Examples:
 ![Brain Tumor Segmentation Results](imgs/mm1.png)
 
-<table>
-  <tr>
-    <td width="50%"><img src="imgs/pr.gif" alt="Prediction" width="100%"/></td>
-    <td width="50%"><img src="imgs/tr.gif" alt="Truth" width="100%"/></td>
-  </tr>
-  <tr>
-    <td align="center"><em>Prediction</em></td>
-    <td align="center"><em>Truth</em></td>
-  </tr>
-</table>
-
 ## Future Work:
 - Explore additional data augmentation techniques to further improve model robustness.
 - Experiment with other loss functions, such as Focal Loss or Tversky Loss, to address class imbalance.
