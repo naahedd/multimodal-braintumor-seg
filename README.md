@@ -40,13 +40,18 @@ This project focuses on the segmentation of brain tumors from MRI scans using a 
 The model successfully segmented brain tumors with high accuracy, as evidenced by the Dice Coefficient scores and visual comparisons between predicted and ground truth masks. The U-Net architecture, combined with Dice Loss, proved to be highly effective for this task, particularly in handling the complex and varied structures of brain tumors.
 
 ### Visualization Examples:
-![Brain Tumor Segmentation Results](imgs/mm2.png)
+![Brain Tumor Segmentation Results](imgs/mm1.png)
 
-![Training History](imgs/pr.gif)
-*Prediction*
-
-![Dice Coefficient Distribution](imgs/tr.gif)
-*Truth*
+<table>
+  <tr>
+    <td width="50%"><img src="imgs/pr.gif" alt="Prediction" width="100%"/></td>
+    <td width="50%"><img src="imgs/tr.gif" alt="Truth" width="100%"/></td>
+  </tr>
+  <tr>
+    <td align="center"><em>Prediction</em></td>
+    <td align="center"><em>Truth</em></td>
+  </tr>
+</table>
 
 ## Future Work:
 - Explore additional data augmentation techniques to further improve model robustness.
